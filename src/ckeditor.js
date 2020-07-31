@@ -13,6 +13,7 @@ import List from '@ckeditor/ckeditor5-list/src/list.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
+import Alignment from '@ckeditor/ckeditor5-alignment',
 
 class Editor extends InlineEditor {}
 
@@ -27,7 +28,8 @@ Editor.builtinPlugins = [
 	List,
 	Paragraph,
 	PasteFromOffice,
-	TextTransformation
+	TextTransformation,
+	Alignment
 ];
 
 export default Editor;
