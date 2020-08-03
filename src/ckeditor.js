@@ -3,7 +3,6 @@
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 import InlineEditor from '@ckeditor/ckeditor5-editor-inline/src/inlineeditor.js';
-import '@ckeditor/ckeditor5-theme-lark/theme/theme.css';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment.js';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat.js';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold.js';
